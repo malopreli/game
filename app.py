@@ -162,7 +162,7 @@ def enemy_ai_turn():
 
 # -------------------- UI --------------------
 
-st.title("⚔️ Streamlit War Game — No Matplotlib")
+st.title("⚔️ Streamlit War Game ")
 
 if 'level_idx' not in st.session_state:
     reset_level(0)
