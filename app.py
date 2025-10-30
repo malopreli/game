@@ -3,6 +3,10 @@
 
 import streamlit as st
 import numpy as np
+import matplotlib
+# Use a non-interactive backend so Streamlit servers without a display won't crash.
+# If matplotlib is not installed, the import will fail — see the error guidance below.
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import random
 from dataclasses import dataclass, field
